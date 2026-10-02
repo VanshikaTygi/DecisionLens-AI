@@ -144,7 +144,85 @@ top_opportunities = (
     .head(10)
 )
 
+
 st.dataframe(
     top_opportunities,
     use_container_width=True,
 )
+
+st.subheader("🔎 Evidence Behind Top Decision")
+
+top_row = df.sort_values(
+    "priority_score",
+    ascending=False
+).iloc[0]
+
+st.markdown(
+    f"### {top_row['company_name']}"
+)
+
+col1, col2, col3 = st.columns(3)
+
+with col1:
+    st.metric(
+        "Priority",
+        top_row["priority"]
+    )
+
+with col2:
+    st.metric(
+        "Priority Score",
+        f"{top_row['priority_score']:.2f}"
+    )
+
+with col3:
+    st.metric(
+        "Deal Value",
+        f"₹{top_row['deal_value']:,.0f}"
+    )
+
+st.markdown("#### Evidence")
+
+evidence_col1, evidence_col2 = st.columns(2)
+
+with evidence_col1:
+    st.write(
+        f"🌐 Website visits: **{top_row['website_visits']}**"
+    )
+    st.write(
+        f"📧 Emails opened: **{top_row['emails_opened']}**"
+    )
+    st.write(
+        f"🤝 Meetings attended: **{top_row['meetings_attended']}**"
+    )
+
+with evidence_col2:
+    st.write(
+        f"💬 Previous interactions: **{top_row['previous_interactions']}**"
+    )
+    st.write(
+        f"📅 Days since last contact: **{top_row['days_since_last_contact']}**"
+    )
+    st.write(
+        f"📊 Sales stage: **{top_row['sales_stage']}**"
+    )
+
+st.markdown("#### Recommended Action")
+
+if top_row["priority"] == "High":
+    recommendation = (
+        "Follow up soon because this opportunity shows a strong "
+        "combination of business value, engagement and sales-stage signals."
+    )
+elif top_row["priority"] == "Medium":
+    recommendation = (
+        "Review this opportunity and consider follow-up based on "
+        "recent engagement and deal value."
+    )
+else:
+    recommendation = (
+        "Keep this opportunity under observation and prioritize "
+        "higher-scoring opportunities first."
+    )
+
+st.info(recommendation)
