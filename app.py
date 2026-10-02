@@ -1,5 +1,7 @@
 import streamlit as st
+import pandas as pd
 
+from src.ai_assistant import generate_decision_recommendation
 from src.data_loader import load_sales_data
 from src.decision_engine import calculate_priority_score
 
@@ -226,3 +228,48 @@ else:
     )
 
 st.info(recommendation)
+
+st.divider()
+
+st.subheader("🤖 DecisionLens AI Assistant")
+
+st.write(
+    "Ask a business question about the top opportunity. "
+    "The AI recommendation is grounded in the evidence shown above."
+)
+
+question = st.text_input(
+    "Business question",
+    value="Should we prioritize this opportunity for follow-up?"
+)
+
+if st.button("✨ Generate AI Decision", type="primary"):
+
+    with st.spinner("Analyzing business evidence..."):
+
+        try:
+            ai_response = generate_decision_recommendation(
+                question=question,
+                company_name=top_row["company_name"],
+                deal_value=top_row["deal_value"],
+                sales_stage=top_row["sales_stage"],
+                priority=top_row["priority"],
+                priority_score=top_row["priority_score"],
+                website_visits=top_row["website_visits"],
+                emails_opened=top_row["emails_opened"],
+                meetings_attended=top_row["meetings_attended"],
+                previous_interactions=top_row["previous_interactions"],
+                days_since_last_contact=top_row["days_since_last_contact"],
+            )
+
+            st.success("AI decision generated successfully.")
+
+            st.markdown("### 🧠 AI Decision")
+            st.markdown(ai_response)
+
+        except Exception as e:
+            st.error(
+                "The AI assistant is temporarily unavailable. "
+                "The analytical dashboard is still available."
+            )
+            st.caption(f"Technical detail: {str(e)}")
