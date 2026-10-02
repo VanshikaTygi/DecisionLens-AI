@@ -1,6 +1,7 @@
 import streamlit as st
 
 from src.data_loader import load_sales_data
+from src.decision_engine import calculate_priority_score
 
 
 st.set_page_config(
@@ -70,6 +71,10 @@ else:
         st.stop()
 
 
+# Run the decision engine
+df = calculate_priority_score(df)
+
+# Now display the dashboard
 st.subheader("Dataset Overview")
 
 
@@ -103,4 +108,43 @@ st.dataframe(
     df,
     use_container_width=True,
     hide_index=True,
+)
+
+st.subheader("🎯 Opportunity Priority")
+
+high_count = int((df["priority"] == "High").sum())
+medium_count = int((df["priority"] == "Medium").sum())
+low_count = int((df["priority"] == "Low").sum())
+
+col1, col2, col3 = st.columns(3)
+
+with col1:
+    st.metric("🔴 High Priority", high_count)
+
+with col2:
+    st.metric("🟡 Medium Priority", medium_count)
+
+with col3:
+    st.metric("🟢 Low Priority", low_count)
+
+
+st.subheader("🔥 Top Opportunities")
+
+top_opportunities = (
+    df[
+        [
+            "company_name",
+            "deal_value",
+            "sales_stage",
+            "priority_score",
+            "priority",
+        ]
+    ]
+    .sort_values("priority_score", ascending=False)
+    .head(10)
+)
+
+st.dataframe(
+    top_opportunities,
+    use_container_width=True,
 )
