@@ -18,10 +18,10 @@ REQUIRED_COLUMNS = [
 ]
 
 
-def load_sales_data(file_path: str) -> pd.DataFrame:
-    """Load the sales dataset from a CSV file."""
+def load_sales_data(file_source) -> pd.DataFrame:
+    """Load and validate sales data from a CSV path or file-like object."""
 
-    df = pd.read_csv(file_path)
+    df = pd.read_csv(file_source)
 
     missing_columns = [
         column
