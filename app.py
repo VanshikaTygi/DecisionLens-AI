@@ -1,5 +1,6 @@
 import streamlit as st
 import pandas as pd
+import plotly.express as px
 
 from src.ai_assistant import generate_decision_recommendation
 from src.data_loader import load_sales_data
@@ -12,8 +13,90 @@ st.set_page_config(
     layout="wide",
 )
 
+st.markdown(
+    """
+    <style>
+    /* Main page */
+    .stApp {
+        background-color: #f7f9fc;
+    }
 
-st.title("🔎 DecisionLens AI")
+    /* Main content width */
+    .block-container {
+        padding-top: 2rem;
+        padding-bottom: 3rem;
+        max-width: 1400px;
+    }
+
+    /* Section headings */
+    h1, h2, h3 {
+        color: #172033;
+    }
+
+    /* Metric cards */
+    div[data-testid="metric-container"] {
+        background-color: white;
+        border: 1px solid #e5e9f2;
+        border-radius: 12px;
+        padding: 16px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+    }
+
+    /* Buttons */
+    .stButton > button {
+        border-radius: 8px;
+        font-weight: 600;
+        padding: 0.55rem 1rem;
+    }
+
+    /* Input box */
+    div[data-baseweb="input"] {
+        border-radius: 8px;
+    }
+
+    /* Alerts */
+    div[data-testid="stAlert"] {
+        border-radius: 10px;
+    }
+
+    /* Dataframes */
+    div[data-testid="stDataFrame"] {
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+    /* Horizontal separators */
+    hr {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
+
+
+st.markdown(
+    """
+    <div style="
+        background: linear-gradient(135deg, #172033, #263b66);
+        padding: 28px 32px;
+        border-radius: 16px;
+        margin-bottom: 25px;
+    ">
+        <h1 style="color:white; margin-bottom:6px;">
+            🔎 DecisionLens AI
+        </h1>
+        <p style="color:#dbe5f5; font-size:17px; margin:0;">
+            Evidence-first AI decision engine for business data
+        </p>
+        <p style="color:#aebdd6; font-size:14px; margin-top:10px;">
+            Turn business data → evidence → decisions → actions
+        </p>
+    </div>
+    """,
+    unsafe_allow_html=True,
+)
 
 st.subheader("Evidence-first AI decision engine")
 
@@ -75,6 +158,35 @@ else:
 
 # Run the decision engine
 df = calculate_priority_score(df)
+
+with st.container(border=True):
+    st.subheader("📊 Opportunity Priority Overview")
+
+    priority_counts = (
+        df["priority"]
+        .value_counts()
+        .reindex(["High", "Medium", "Low"])
+        .fillna(0)
+    )
+
+    fig = px.bar(
+        x=priority_counts.index,
+        y=priority_counts.values,
+        labels={
+            "x": "Priority",
+            "y": "Number of Opportunities",
+        },
+        title="Opportunity Distribution by Priority",
+    )
+
+    fig.update_layout(
+        height=350,
+        margin=dict(l=20, r=20, t=60, b=20),
+        plot_bgcolor="white",
+        paper_bgcolor="white",
+    )
+
+    st.plotly_chart(fig, use_container_width=True)
 
 # Now display the dashboard
 st.subheader("Dataset Overview")
@@ -152,6 +264,7 @@ st.dataframe(
     use_container_width=True,
 )
 
+
 st.subheader("🔎 Evidence Behind Top Decision")
 
 top_row = df.sort_values(
@@ -183,33 +296,51 @@ with col3:
         f"₹{top_row['deal_value']:,.0f}"
     )
 
-st.markdown("#### Evidence")
 
-evidence_col1, evidence_col2 = st.columns(2)
+st.subheader("📌 Evidence Signals")
 
-with evidence_col1:
-    st.write(
-        f"🌐 Website visits: **{top_row['website_visits']}**"
-    )
-    st.write(
-        f"📧 Emails opened: **{top_row['emails_opened']}**"
-    )
-    st.write(
-        f"🤝 Meetings attended: **{top_row['meetings_attended']}**"
+e1, e2, e3 = st.columns(3)
+
+with e1:
+    st.metric(
+        "🌐 Website Visits",
+        int(top_row["website_visits"])
     )
 
-with evidence_col2:
-    st.write(
-        f"💬 Previous interactions: **{top_row['previous_interactions']}**"
-    )
-    st.write(
-        f"📅 Days since last contact: **{top_row['days_since_last_contact']}**"
-    )
-    st.write(
-        f"📊 Sales stage: **{top_row['sales_stage']}**"
+with e2:
+    st.metric(
+        "✉️ Emails Opened",
+        int(top_row["emails_opened"])
     )
 
-st.markdown("#### Recommended Action")
+with e3:
+    st.metric(
+        "🤝 Meetings",
+        int(top_row["meetings_attended"])
+    )
+
+e4, e5, e6 = st.columns(3)
+
+with e4:
+    st.metric(
+        "💬 Interactions",
+        int(top_row["previous_interactions"])
+    )
+
+with e5:
+    st.metric(
+        "📅 Days Since Contact",
+        int(top_row["days_since_last_contact"])
+    )
+
+with e6:
+    st.metric(
+        "🏢 Sales Stage",
+        top_row["sales_stage"]
+    )
+
+
+st.subheader("💡 Recommended Action")
 
 if top_row["priority"] == "High":
     recommendation = (
@@ -231,45 +362,54 @@ st.info(recommendation)
 
 st.divider()
 
-st.subheader("🤖 DecisionLens AI Assistant")
+with st.container(border=True):
 
-st.write(
-    "Ask a business question about the top opportunity. "
-    "The AI recommendation is grounded in the evidence shown above."
-)
+    st.subheader("🤖 DecisionLens AI Assistant")
 
-question = st.text_input(
-    "Business question",
-    value="Should we prioritize this opportunity for follow-up?"
-)
+    st.caption(
+        "Ask a business question and receive an evidence-grounded "
+        "recommendation based on the selected opportunity."
+    )
 
-if st.button("✨ Generate AI Decision", type="primary"):
+    question = st.text_input(
+        "Business question",
+        value="Should we prioritize this opportunity for follow-up?",
+        label_visibility="visible",
+    )
 
-    with st.spinner("Analyzing business evidence..."):
+    generate_ai = st.button(
+        "✨ Generate AI Decision",
+        type="primary",
+        use_container_width=False,
+    )
 
-        try:
-            ai_response = generate_decision_recommendation(
-                question=question,
-                company_name=top_row["company_name"],
-                deal_value=top_row["deal_value"],
-                sales_stage=top_row["sales_stage"],
-                priority=top_row["priority"],
-                priority_score=top_row["priority_score"],
-                website_visits=top_row["website_visits"],
-                emails_opened=top_row["emails_opened"],
-                meetings_attended=top_row["meetings_attended"],
-                previous_interactions=top_row["previous_interactions"],
-                days_since_last_contact=top_row["days_since_last_contact"],
-            )
+    if generate_ai:
 
-            st.success("AI decision generated successfully.")
+        with st.spinner("Analyzing business evidence..."):
 
-            st.markdown("### 🧠 AI Decision")
-            st.markdown(ai_response)
+            try:
+                ai_response = generate_decision_recommendation(
+                    question=question,
+                    company_name=top_row["company_name"],
+                    deal_value=top_row["deal_value"],
+                    sales_stage=top_row["sales_stage"],
+                    priority=top_row["priority"],
+                    priority_score=top_row["priority_score"],
+                    website_visits=top_row["website_visits"],
+                    emails_opened=top_row["emails_opened"],
+                    meetings_attended=top_row["meetings_attended"],
+                    previous_interactions=top_row["previous_interactions"],
+                    days_since_last_contact=top_row["days_since_last_contact"],
+                )
 
-        except Exception as e:
-            st.error(
-                "The AI assistant is temporarily unavailable. "
-                "The analytical dashboard is still available."
-            )
-            st.caption(f"Technical detail: {str(e)}")
+                st.success("AI decision generated successfully.")
+
+                st.markdown("### 🧠 AI Decision")
+                st.markdown(ai_response)
+
+            except Exception as e:
+                st.error(
+                    "The AI assistant is temporarily unavailable. "
+                    "The analytical dashboard is still available."
+                )
+                st.caption(f"Technical detail: {str(e)}")
