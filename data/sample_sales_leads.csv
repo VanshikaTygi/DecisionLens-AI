@@ -1,0 +1,501 @@
+lead_id,company_name,industry,location,deal_value,sales_stage,lead_source,website_visits,emails_opened,meetings_attended,previous_interactions,days_since_last_contact,converted
+DL-0001,Orbit Technologies,Retail,Delhi,81000,Qualified,Partner,8,8,0,6,42,0
+DL-0002,Summit Enterprises,Logistics,Gurugram,429000,Negotiation,LinkedIn,18,8,1,4,3,0
+DL-0003,Prime Technologies,Healthcare,Hyderabad,452000,Proposal,Advertisement,12,10,2,7,1,0
+DL-0004,BluePeak Technologies,Manufacturing,Noida,61000,New Lead,Partner,10,8,0,9,44,0
+DL-0005,Orbit Enterprises,Retail,Hyderabad,282000,Proposal,Email Campaign,9,4,1,10,55,0
+DL-0006,Nexus Systems,Technology,Chennai,406000,Proposal,Email Campaign,13,11,4,7,15,1
+DL-0007,Vertex Technologies,Logistics,Bengaluru,385000,Proposal,LinkedIn,13,6,1,6,47,1
+DL-0008,Orbit Enterprises,Finance,Bengaluru,410000,Proposal,Email Campaign,5,14,1,5,21,0
+DL-0009,Prime Labs,Retail,Noida,248000,Proposal,LinkedIn,15,9,5,4,46,1
+DL-0010,BluePeak Industries,Technology,Pune,131000,New Lead,Advertisement,12,6,3,2,58,0
+DL-0011,Summit Industries,Logistics,Noida,56000,New Lead,Referral,7,4,4,3,31,0
+DL-0012,Prime Technologies,Real Estate,Chennai,228000,Demo,LinkedIn,12,7,4,4,7,1
+DL-0013,Prime Systems,Logistics,Noida,480000,Negotiation,LinkedIn,10,6,2,10,17,1
+DL-0014,Vertex Systems,Healthcare,Bengaluru,106000,Qualified,Partner,13,6,2,2,56,1
+DL-0015,NextGen Labs,Logistics,Noida,200000,Demo,Email Campaign,8,7,2,1,19,0
+DL-0016,BluePeak Technologies,Finance,Pune,221000,Demo,Advertisement,11,6,2,4,39,1
+DL-0017,Nova Industries,Logistics,Bengaluru,126000,Qualified,Referral,13,4,3,9,60,1
+DL-0018,Prime Systems,Education,Pune,432000,Proposal,Website,9,7,1,6,3,1
+DL-0019,NextGen Technologies,Technology,Noida,480000,Negotiation,LinkedIn,10,9,4,10,30,0
+DL-0020,Nova Systems,Real Estate,Bengaluru,146000,Demo,Website,16,11,2,6,35,0
+DL-0021,BluePeak Enterprises,Education,Mumbai,142000,Demo,Email Campaign,14,10,3,4,58,1
+DL-0022,Apex Systems,Logistics,Gurugram,173000,Qualified,LinkedIn,12,10,2,4,57,1
+DL-0023,Nexus Industries,Finance,Pune,138000,Demo,Website,16,12,2,9,29,1
+DL-0024,NextGen Solutions,Technology,Gurugram,162000,Qualified,Partner,14,9,1,5,50,0
+DL-0025,Elevate Labs,Technology,Mumbai,167000,Qualified,Website,16,8,1,4,52,0
+DL-0026,Apex Labs,Logistics,Mumbai,165000,Demo,Partner,12,2,1,2,54,0
+DL-0027,Nexus Industries,Finance,Mumbai,98000,New Lead,Referral,11,4,4,5,14,0
+DL-0028,Vertex Systems,Healthcare,Mumbai,46000,New Lead,Email Campaign,15,4,1,4,35,0
+DL-0029,Orbit Technologies,Real Estate,Delhi,236000,Demo,Advertisement,8,6,2,5,28,1
+DL-0030,Summit Systems,Technology,Gurugram,148000,Qualified,Website,11,12,1,2,58,1
+DL-0031,Elevate Industries,Real Estate,Noida,146000,Qualified,LinkedIn,12,7,2,6,30,0
+DL-0032,Vertex Labs,Finance,Chennai,247000,Proposal,Email Campaign,7,8,3,5,26,0
+DL-0033,BluePeak Systems,Retail,Noida,168000,Demo,Website,14,5,2,4,7,1
+DL-0034,Vertex Labs,Education,Noida,112000,New Lead,LinkedIn,12,11,2,4,39,0
+DL-0035,Orbit Technologies,Technology,Gurugram,456000,Proposal,LinkedIn,13,5,0,2,31,0
+DL-0036,BluePeak Labs,Retail,Noida,178000,Qualified,Advertisement,10,11,0,4,5,0
+DL-0037,Elevate Labs,Technology,Hyderabad,432000,Proposal,Advertisement,8,8,0,6,35,0
+DL-0038,Orbit Solutions,Healthcare,Delhi,267000,Demo,LinkedIn,9,9,3,5,50,1
+DL-0039,Nova Solutions,Logistics,Noida,460000,Negotiation,Advertisement,12,4,3,7,47,1
+DL-0040,Summit Enterprises,Finance,Bengaluru,354000,Proposal,LinkedIn,9,3,2,1,52,1
+DL-0041,Elevate Solutions,Technology,Noida,221000,Proposal,Website,10,4,0,2,14,0
+DL-0042,Nova Labs,Finance,Bengaluru,342000,Proposal,Referral,13,8,3,5,36,1
+DL-0043,Nexus Industries,Manufacturing,Chennai,104000,New Lead,Advertisement,8,7,1,6,27,0
+DL-0044,Elevate Labs,Technology,Hyderabad,67000,New Lead,Partner,9,3,1,8,24,0
+DL-0045,Nexus Industries,Healthcare,Hyderabad,440000,Proposal,Partner,14,8,2,5,40,0
+DL-0046,BluePeak Industries,Healthcare,Hyderabad,153000,Qualified,Partner,13,6,3,9,29,1
+DL-0047,Nova Solutions,Logistics,Mumbai,229000,Proposal,Referral,18,7,2,1,53,1
+DL-0048,Summit Systems,Logistics,Delhi,58000,New Lead,LinkedIn,9,7,2,3,45,0
+DL-0049,Orbit Technologies,Retail,Noida,271000,Demo,LinkedIn,12,14,3,5,22,1
+DL-0050,Prime Solutions,Healthcare,Bengaluru,171000,Qualified,Email Campaign,14,12,6,4,8,0
+DL-0051,Vertex Solutions,Finance,Delhi,154000,Qualified,Partner,9,5,2,2,15,0
+DL-0052,Apex Systems,Manufacturing,Delhi,205000,Demo,Partner,11,7,0,4,49,0
+DL-0053,Summit Technologies,Real Estate,Delhi,232000,Demo,LinkedIn,12,5,3,2,5,0
+DL-0054,Nova Labs,Healthcare,Hyderabad,268000,Demo,Partner,10,8,0,3,52,0
+DL-0055,Prime Enterprises,Technology,Chennai,205000,Qualified,LinkedIn,9,10,1,9,4,0
+DL-0056,Summit Enterprises,Real Estate,Chennai,207000,Qualified,LinkedIn,11,7,0,5,11,0
+DL-0057,Nova Labs,Real Estate,Hyderabad,383000,Proposal,Advertisement,9,13,5,2,18,1
+DL-0058,NextGen Solutions,Healthcare,Bengaluru,77000,New Lead,LinkedIn,16,4,0,6,42,0
+DL-0059,NextGen Technologies,Manufacturing,Bengaluru,228000,Demo,Website,13,9,7,6,49,0
+DL-0060,Nexus Solutions,Finance,Bengaluru,249000,Demo,Website,10,4,2,6,30,1
+DL-0061,Summit Industries,Technology,Noida,395000,Proposal,Website,15,9,4,4,15,1
+DL-0062,NextGen Solutions,Retail,Chennai,292000,Demo,Website,9,8,4,8,6,0
+DL-0063,Nova Solutions,Retail,Noida,535000,Proposal,Referral,12,9,1,5,55,0
+DL-0064,Nexus Labs,Retail,Chennai,474000,Negotiation,Email Campaign,17,7,2,8,53,1
+DL-0065,Nova Labs,Logistics,Delhi,231000,Qualified,Email Campaign,13,5,1,9,16,0
+DL-0066,Nexus Labs,Technology,Hyderabad,103000,New Lead,LinkedIn,14,10,2,5,47,0
+DL-0067,Summit Enterprises,Real Estate,Mumbai,146000,Qualified,Partner,10,8,0,6,40,1
+DL-0068,Prime Industries,Retail,Delhi,206000,Qualified,Website,8,8,3,6,9,1
+DL-0069,Orbit Labs,Logistics,Pune,313000,Demo,Email Campaign,14,3,2,6,43,0
+DL-0070,Elevate Technologies,Healthcare,Noida,442000,Negotiation,Email Campaign,9,8,2,6,59,1
+DL-0071,Prime Enterprises,Real Estate,Chennai,115000,New Lead,Website,12,4,3,2,34,1
+DL-0072,BluePeak Systems,Technology,Delhi,102000,New Lead,Referral,12,8,0,2,27,0
+DL-0073,Nova Technologies,Technology,Hyderabad,239000,Qualified,Referral,9,7,2,6,13,0
+DL-0074,BluePeak Technologies,Technology,Pune,313000,Proposal,Email Campaign,11,4,0,8,36,1
+DL-0075,Prime Labs,Education,Gurugram,201000,Demo,Referral,14,8,0,6,27,1
+DL-0076,Nexus Systems,Logistics,Noida,39000,New Lead,Advertisement,7,5,4,8,9,1
+DL-0077,Elevate Systems,Real Estate,Delhi,571000,Negotiation,Website,12,9,1,5,5,1
+DL-0078,Elevate Enterprises,Finance,Hyderabad,383000,Proposal,Email Campaign,10,3,2,6,51,0
+DL-0079,Apex Systems,Education,Hyderabad,69000,New Lead,Website,7,10,0,8,22,0
+DL-0080,Elevate Industries,Education,Chennai,215000,Demo,Referral,12,6,0,2,31,1
+DL-0081,Orbit Labs,Education,Mumbai,235000,Proposal,Website,17,9,4,8,3,1
+DL-0082,Elevate Systems,Finance,Delhi,195000,Qualified,Referral,14,5,0,2,30,0
+DL-0083,Prime Enterprises,Education,Hyderabad,70000,New Lead,Referral,13,6,2,8,21,1
+DL-0084,Apex Industries,Retail,Noida,142000,New Lead,Website,13,6,1,3,35,1
+DL-0085,Prime Solutions,Technology,Bengaluru,76000,New Lead,Referral,6,4,2,9,6,1
+DL-0086,Prime Solutions,Real Estate,Hyderabad,284000,Proposal,Advertisement,10,5,2,7,28,0
+DL-0087,Vertex Industries,Real Estate,Mumbai,448000,Negotiation,LinkedIn,15,7,2,7,32,0
+DL-0088,Apex Enterprises,Technology,Hyderabad,52000,New Lead,Website,11,9,2,4,42,0
+DL-0089,Prime Industries,Logistics,Chennai,90000,New Lead,LinkedIn,6,8,2,8,37,0
+DL-0090,Vertex Labs,Healthcare,Gurugram,72000,New Lead,Website,8,6,1,3,25,0
+DL-0091,Vertex Labs,Manufacturing,Delhi,103000,New Lead,Referral,6,11,1,5,32,0
+DL-0092,Apex Solutions,Retail,Chennai,326000,Proposal,Referral,15,4,1,3,35,1
+DL-0093,BluePeak Systems,Finance,Delhi,202000,Qualified,Email Campaign,10,7,5,4,22,1
+DL-0094,Nexus Enterprises,Manufacturing,Pune,178000,Qualified,Advertisement,12,3,3,2,24,0
+DL-0095,Orbit Solutions,Technology,Delhi,81000,New Lead,Email Campaign,13,9,2,2,39,1
+DL-0096,Nexus Systems,Education,Pune,307000,Demo,LinkedIn,13,6,1,5,54,0
+DL-0097,Elevate Systems,Real Estate,Chennai,186000,Qualified,Referral,17,4,3,9,30,0
+DL-0098,Orbit Labs,Logistics,Bengaluru,608000,Proposal,Email Campaign,12,3,0,6,50,0
+DL-0099,Elevate Technologies,Logistics,Noida,72000,New Lead,Referral,10,4,2,5,32,0
+DL-0100,Prime Technologies,Healthcare,Mumbai,357000,Proposal,Website,7,9,1,1,31,1
+DL-0101,Nova Industries,Healthcare,Bengaluru,306000,Demo,Email Campaign,12,8,3,6,23,1
+DL-0102,Apex Labs,Technology,Noida,49000,New Lead,LinkedIn,14,7,1,6,40,0
+DL-0103,Orbit Systems,Retail,Pune,199000,Qualified,Email Campaign,14,6,0,3,33,0
+DL-0104,Orbit Enterprises,Logistics,Hyderabad,388000,Proposal,Referral,14,4,2,4,25,1
+DL-0105,Prime Technologies,Manufacturing,Hyderabad,389000,Negotiation,Partner,9,4,3,4,36,1
+DL-0106,BluePeak Systems,Healthcare,Bengaluru,99000,Qualified,Partner,10,10,1,4,24,1
+DL-0107,Vertex Technologies,Real Estate,Hyderabad,125000,Qualified,Advertisement,7,4,2,5,31,0
+DL-0108,Prime Technologies,Real Estate,Pune,214000,Negotiation,Referral,14,5,1,7,58,1
+DL-0109,NextGen Technologies,Technology,Chennai,193000,Demo,Website,9,7,3,7,39,0
+DL-0110,Vertex Enterprises,Retail,Mumbai,92000,New Lead,Email Campaign,17,4,2,5,46,0
+DL-0111,Apex Labs,Technology,Gurugram,440000,Negotiation,Partner,9,4,1,13,13,1
+DL-0112,Vertex Enterprises,Technology,Delhi,108000,New Lead,Website,11,3,4,8,10,0
+DL-0113,BluePeak Solutions,Retail,Pune,311000,Demo,Referral,15,7,0,2,23,1
+DL-0114,Vertex Systems,Retail,Noida,106000,New Lead,Website,13,6,7,3,18,1
+DL-0115,Apex Labs,Retail,Gurugram,85000,New Lead,Referral,13,9,2,5,32,1
+DL-0116,BluePeak Labs,Real Estate,Pune,63000,Qualified,Advertisement,9,5,4,9,33,0
+DL-0117,Nexus Labs,Real Estate,Delhi,288000,Proposal,Email Campaign,15,12,3,7,36,1
+DL-0118,Orbit Labs,Technology,Delhi,145000,Qualified,Website,10,8,3,6,28,0
+DL-0119,Orbit Enterprises,Healthcare,Mumbai,62000,New Lead,Email Campaign,14,6,6,7,16,0
+DL-0120,Elevate Labs,Finance,Mumbai,77000,New Lead,Website,6,9,1,5,16,1
+DL-0121,Nexus Industries,Finance,Mumbai,309000,Demo,Referral,10,4,0,6,18,0
+DL-0122,Nexus Systems,Technology,Hyderabad,294000,Negotiation,Referral,9,11,3,4,8,1
+DL-0123,Vertex Labs,Technology,Noida,218000,Qualified,Website,11,6,1,3,42,0
+DL-0124,Orbit Systems,Healthcare,Noida,269000,Demo,Advertisement,17,6,0,7,16,1
+DL-0125,Apex Industries,Retail,Pune,373000,Proposal,Referral,15,9,0,6,55,1
+DL-0126,Summit Industries,Technology,Chennai,181000,Demo,LinkedIn,17,9,1,4,56,1
+DL-0127,Summit Systems,Logistics,Delhi,63000,New Lead,LinkedIn,17,7,3,5,11,1
+DL-0128,BluePeak Technologies,Real Estate,Pune,89000,Qualified,Email Campaign,8,5,5,5,6,0
+DL-0129,Orbit Solutions,Education,Gurugram,214000,Qualified,LinkedIn,11,9,1,3,1,1
+DL-0130,Orbit Technologies,Retail,Pune,208000,Qualified,LinkedIn,11,14,4,2,12,1
+DL-0131,Summit Technologies,Logistics,Noida,97000,Qualified,Advertisement,11,11,3,1,57,1
+DL-0132,Orbit Enterprises,Real Estate,Mumbai,302000,Proposal,Advertisement,12,2,2,3,38,0
+DL-0133,Vertex Technologies,Technology,Mumbai,166000,Qualified,Partner,11,7,2,2,28,0
+DL-0134,NextGen Labs,Education,Pune,139000,Qualified,Partner,21,8,1,6,45,0
+DL-0135,Nova Enterprises,Logistics,Noida,114000,Demo,Advertisement,13,5,3,4,58,0
+DL-0136,Nexus Enterprises,Manufacturing,Noida,125000,Qualified,Partner,13,5,3,4,17,1
+DL-0137,Elevate Industries,Healthcare,Noida,521000,Proposal,Advertisement,13,3,6,7,1,1
+DL-0138,BluePeak Technologies,Real Estate,Mumbai,188000,Demo,Partner,9,6,2,4,32,0
+DL-0139,NextGen Industries,Education,Noida,144000,Qualified,Referral,5,9,2,3,8,1
+DL-0140,Summit Systems,Technology,Hyderabad,250000,Proposal,Advertisement,10,9,2,4,54,0
+DL-0141,Nexus Solutions,Finance,Delhi,252000,Demo,Email Campaign,6,6,2,4,40,0
+DL-0142,Orbit Enterprises,Logistics,Gurugram,226000,Demo,Email Campaign,14,6,3,5,56,0
+DL-0143,Elevate Systems,Technology,Noida,122000,Qualified,Advertisement,17,4,3,6,43,0
+DL-0144,Orbit Systems,Finance,Pune,101000,Qualified,LinkedIn,13,5,2,3,46,0
+DL-0145,Apex Labs,Healthcare,Delhi,473000,Proposal,Email Campaign,16,6,3,4,24,0
+DL-0146,Apex Solutions,Healthcare,Hyderabad,48000,New Lead,LinkedIn,11,4,2,3,10,0
+DL-0147,Elevate Systems,Retail,Gurugram,169000,Qualified,Email Campaign,15,4,1,2,47,1
+DL-0148,Elevate Systems,Logistics,Mumbai,37000,New Lead,Website,14,7,1,0,39,0
+DL-0149,Summit Solutions,Retail,Bengaluru,412000,Proposal,Website,9,3,2,5,39,0
+DL-0150,Elevate Solutions,Finance,Hyderabad,186000,Qualified,Advertisement,15,9,1,4,10,0
+DL-0151,Vertex Systems,Finance,Bengaluru,637000,Negotiation,Email Campaign,12,1,3,7,36,1
+DL-0152,Orbit Solutions,Healthcare,Delhi,211000,Demo,Referral,10,9,3,1,25,0
+DL-0153,NextGen Systems,Education,Pune,489000,Proposal,LinkedIn,11,11,1,3,60,0
+DL-0154,Prime Systems,Finance,Gurugram,788000,Negotiation,Email Campaign,13,5,4,5,50,1
+DL-0155,Elevate Labs,Finance,Mumbai,322000,Proposal,Advertisement,7,4,4,5,59,0
+DL-0156,BluePeak Technologies,Logistics,Gurugram,311000,Proposal,LinkedIn,9,6,2,7,57,0
+DL-0157,Apex Systems,Education,Hyderabad,156000,Qualified,Partner,9,6,2,2,10,0
+DL-0158,Vertex Industries,Retail,Mumbai,194000,Demo,Advertisement,17,7,5,4,19,1
+DL-0159,Nexus Enterprises,Retail,Bengaluru,127000,Qualified,Email Campaign,17,10,2,4,46,1
+DL-0160,Prime Technologies,Finance,Bengaluru,69000,New Lead,Referral,12,6,5,4,45,0
+DL-0161,NextGen Technologies,Logistics,Chennai,314000,Demo,Partner,12,8,3,6,15,0
+DL-0162,Prime Technologies,Retail,Gurugram,262000,Demo,Advertisement,12,7,3,8,16,1
+DL-0163,Elevate Labs,Retail,Noida,132000,Qualified,Email Campaign,12,9,1,6,2,0
+DL-0164,Summit Systems,Manufacturing,Pune,85000,Demo,Website,12,4,3,5,29,1
+DL-0165,Apex Labs,Logistics,Noida,307000,Negotiation,Email Campaign,16,5,0,3,4,1
+DL-0166,Apex Systems,Retail,Bengaluru,248000,Demo,Website,12,5,3,2,53,1
+DL-0167,Nexus Labs,Healthcare,Pune,164000,Proposal,Website,9,6,1,7,50,0
+DL-0168,Summit Labs,Technology,Chennai,376000,Proposal,Advertisement,4,3,0,3,29,1
+DL-0169,Orbit Enterprises,Finance,Hyderabad,367000,Negotiation,Email Campaign,16,3,1,6,31,1
+DL-0170,Nova Industries,Real Estate,Chennai,225000,Demo,Email Campaign,16,6,5,2,17,1
+DL-0171,Vertex Labs,Finance,Pune,356000,Proposal,Website,17,7,0,7,10,1
+DL-0172,Apex Enterprises,Healthcare,Bengaluru,515000,Negotiation,LinkedIn,18,6,3,4,27,1
+DL-0173,BluePeak Solutions,Real Estate,Delhi,451000,Negotiation,Partner,11,8,1,9,53,0
+DL-0174,Apex Industries,Technology,Pune,71000,New Lead,Referral,9,7,2,9,41,0
+DL-0175,Prime Labs,Technology,Mumbai,123000,Qualified,Email Campaign,10,8,3,3,15,1
+DL-0176,Apex Technologies,Healthcare,Noida,168000,Qualified,Partner,16,4,4,10,60,0
+DL-0177,Apex Solutions,Education,Delhi,96000,New Lead,Partner,14,1,0,8,44,0
+DL-0178,Nova Solutions,Education,Gurugram,153000,Demo,LinkedIn,9,3,1,3,31,0
+DL-0179,Nova Enterprises,Technology,Pune,345000,Proposal,Partner,15,7,4,6,21,0
+DL-0180,NextGen Solutions,Education,Mumbai,367000,Proposal,Email Campaign,6,6,1,5,60,1
+DL-0181,Orbit Industries,Education,Noida,84000,New Lead,Advertisement,12,7,4,4,59,0
+DL-0182,BluePeak Labs,Education,Gurugram,365000,Proposal,Advertisement,11,3,5,1,58,0
+DL-0183,Apex Labs,Technology,Chennai,198000,Demo,Partner,15,10,1,3,41,1
+DL-0184,Apex Technologies,Real Estate,Delhi,374000,Proposal,Email Campaign,13,11,2,5,46,1
+DL-0185,Vertex Enterprises,Education,Pune,577000,Negotiation,Email Campaign,17,5,3,5,45,1
+DL-0186,Nova Technologies,Real Estate,Hyderabad,228000,Demo,Website,12,4,1,7,60,0
+DL-0187,BluePeak Solutions,Finance,Chennai,169000,Qualified,LinkedIn,7,2,3,2,26,1
+DL-0188,Nexus Technologies,Manufacturing,Mumbai,437000,Proposal,Referral,8,10,2,4,38,1
+DL-0189,NextGen Industries,Technology,Hyderabad,81000,Qualified,Website,15,7,3,4,51,0
+DL-0190,Orbit Labs,Healthcare,Bengaluru,99000,New Lead,Referral,12,15,1,4,36,0
+DL-0191,Summit Solutions,Education,Chennai,380000,Proposal,Email Campaign,6,5,0,8,52,0
+DL-0192,Orbit Technologies,Retail,Noida,108000,Qualified,Advertisement,9,11,3,9,17,1
+DL-0193,Prime Enterprises,Technology,Chennai,420000,Proposal,Website,16,4,0,6,51,1
+DL-0194,Apex Industries,Logistics,Noida,135000,Qualified,Partner,11,3,1,3,3,0
+DL-0195,NextGen Industries,Healthcare,Pune,327000,Proposal,Partner,11,7,0,5,14,1
+DL-0196,Prime Technologies,Manufacturing,Pune,70000,New Lead,Referral,12,6,2,5,49,0
+DL-0197,BluePeak Labs,Finance,Mumbai,538000,Negotiation,Email Campaign,13,6,1,4,13,1
+DL-0198,Summit Technologies,Real Estate,Chennai,281000,Proposal,Advertisement,11,7,1,3,41,0
+DL-0199,Nova Solutions,Real Estate,Pune,98000,New Lead,Referral,13,9,1,2,27,0
+DL-0200,NextGen Technologies,Logistics,Bengaluru,212000,Demo,Advertisement,7,8,0,3,1,0
+DL-0201,NextGen Industries,Healthcare,Noida,454000,Negotiation,LinkedIn,12,9,1,3,57,1
+DL-0202,Apex Technologies,Education,Gurugram,178000,Qualified,Advertisement,8,5,0,6,17,0
+DL-0203,Elevate Labs,Retail,Gurugram,74000,New Lead,Partner,19,10,2,6,48,0
+DL-0204,NextGen Enterprises,Education,Gurugram,186000,Qualified,Website,12,6,3,2,50,1
+DL-0205,Vertex Systems,Healthcare,Pune,274000,Demo,Website,15,6,2,2,34,0
+DL-0206,Summit Technologies,Technology,Chennai,233000,Proposal,Website,7,12,3,3,14,1
+DL-0207,Summit Labs,Logistics,Gurugram,281000,Demo,Advertisement,12,2,2,10,54,1
+DL-0208,Vertex Labs,Retail,Delhi,95000,Qualified,Partner,13,5,1,1,55,0
+DL-0209,Nexus Enterprises,Real Estate,Hyderabad,103000,New Lead,Advertisement,7,6,3,4,59,0
+DL-0210,Vertex Industries,Logistics,Chennai,332000,Demo,Email Campaign,23,14,0,3,17,1
+DL-0211,Vertex Labs,Logistics,Noida,183000,Qualified,Partner,7,7,0,8,3,0
+DL-0212,Summit Labs,Retail,Bengaluru,37000,New Lead,Partner,9,11,1,1,34,0
+DL-0213,Orbit Labs,Real Estate,Chennai,633000,Negotiation,Advertisement,11,17,4,8,40,1
+DL-0214,Summit Labs,Real Estate,Bengaluru,344000,Demo,Advertisement,10,11,4,8,25,1
+DL-0215,Elevate Solutions,Healthcare,Chennai,203000,Demo,Website,12,6,0,5,2,0
+DL-0216,Apex Solutions,Manufacturing,Gurugram,347000,Proposal,Partner,16,7,7,9,34,1
+DL-0217,Prime Industries,Manufacturing,Hyderabad,155000,Demo,Website,11,7,3,5,26,1
+DL-0218,Orbit Technologies,Education,Hyderabad,377000,Proposal,Email Campaign,12,6,3,10,31,0
+DL-0219,Nova Labs,Healthcare,Bengaluru,198000,Qualified,LinkedIn,13,7,4,9,9,0
+DL-0220,Prime Enterprises,Retail,Chennai,94000,New Lead,Website,12,6,2,4,30,0
+DL-0221,Apex Technologies,Healthcare,Hyderabad,268000,Qualified,Advertisement,8,7,3,5,20,0
+DL-0222,Elevate Enterprises,Retail,Mumbai,151000,Qualified,Referral,16,12,1,7,21,0
+DL-0223,Elevate Technologies,Logistics,Chennai,207000,Proposal,LinkedIn,8,3,3,8,29,0
+DL-0224,Nova Industries,Education,Hyderabad,83000,New Lead,Email Campaign,14,7,1,4,59,0
+DL-0225,Orbit Labs,Technology,Delhi,32000,New Lead,Advertisement,16,3,1,2,25,0
+DL-0226,Nexus Labs,Logistics,Delhi,130000,Qualified,LinkedIn,8,8,2,8,38,1
+DL-0227,Vertex Systems,Real Estate,Mumbai,211000,Qualified,Advertisement,16,6,2,7,58,0
+DL-0228,Orbit Enterprises,Technology,Hyderabad,378000,Proposal,Website,15,10,2,5,44,1
+DL-0229,Nexus Technologies,Healthcare,Delhi,157000,Qualified,Advertisement,10,7,2,9,25,0
+DL-0230,Elevate Technologies,Retail,Gurugram,320000,Demo,Email Campaign,15,6,3,8,9,1
+DL-0231,Summit Solutions,Technology,Chennai,140000,Qualified,Referral,14,7,3,6,39,1
+DL-0232,Apex Systems,Logistics,Pune,289000,Demo,Website,16,10,4,6,44,1
+DL-0233,Nova Solutions,Retail,Hyderabad,361000,Proposal,Website,17,7,3,5,26,0
+DL-0234,Apex Solutions,Education,Noida,164000,Qualified,Email Campaign,13,6,2,4,57,1
+DL-0235,BluePeak Solutions,Logistics,Mumbai,243000,Proposal,Email Campaign,10,4,1,9,37,0
+DL-0236,BluePeak Enterprises,Real Estate,Hyderabad,132000,Qualified,LinkedIn,12,6,2,2,16,0
+DL-0237,Orbit Enterprises,Healthcare,Bengaluru,98000,Qualified,Referral,14,7,4,8,37,1
+DL-0238,Elevate Industries,Retail,Bengaluru,488000,Negotiation,Advertisement,19,8,1,5,12,0
+DL-0239,Elevate Industries,Healthcare,Delhi,88000,New Lead,LinkedIn,12,3,2,4,24,0
+DL-0240,Vertex Solutions,Retail,Noida,58000,New Lead,Advertisement,12,8,1,5,26,0
+DL-0241,Vertex Systems,Logistics,Bengaluru,529000,Proposal,Advertisement,13,9,1,3,20,1
+DL-0242,Vertex Technologies,Manufacturing,Mumbai,86000,New Lead,Advertisement,10,7,2,8,9,0
+DL-0243,Summit Enterprises,Manufacturing,Noida,355000,Proposal,LinkedIn,17,11,1,7,23,0
+DL-0244,Prime Systems,Retail,Delhi,179000,Qualified,Website,11,7,4,4,39,0
+DL-0245,NextGen Labs,Education,Mumbai,396000,Negotiation,Email Campaign,13,3,1,2,29,0
+DL-0246,Prime Enterprises,Healthcare,Chennai,364000,Proposal,Website,5,4,2,3,31,0
+DL-0247,Apex Enterprises,Real Estate,Mumbai,181000,Demo,Referral,13,8,1,2,19,0
+DL-0248,Prime Industries,Finance,Bengaluru,695000,Negotiation,LinkedIn,9,6,4,7,20,1
+DL-0249,Summit Technologies,Retail,Chennai,110000,Qualified,Referral,9,8,3,5,23,1
+DL-0250,Apex Technologies,Retail,Bengaluru,508000,Negotiation,Email Campaign,23,8,1,6,43,1
+DL-0251,Prime Labs,Manufacturing,Mumbai,87000,New Lead,Email Campaign,18,10,2,2,27,0
+DL-0252,Summit Labs,Technology,Bengaluru,165000,Qualified,Partner,17,4,0,6,30,0
+DL-0253,NextGen Enterprises,Logistics,Noida,128000,Qualified,Referral,13,8,3,3,21,0
+DL-0254,Prime Solutions,Manufacturing,Bengaluru,171000,Demo,Website,16,7,3,3,44,0
+DL-0255,Summit Industries,Healthcare,Bengaluru,69000,New Lead,Referral,15,6,2,3,35,0
+DL-0256,Vertex Industries,Manufacturing,Hyderabad,396000,Proposal,LinkedIn,6,9,4,6,49,0
+DL-0257,Elevate Enterprises,Finance,Chennai,337000,Proposal,Email Campaign,4,6,2,5,7,0
+DL-0258,Vertex Systems,Education,Noida,600000,Negotiation,Email Campaign,13,8,3,8,22,1
+DL-0259,Elevate Solutions,Logistics,Chennai,90000,New Lead,Referral,7,5,1,4,10,0
+DL-0260,Nova Enterprises,Finance,Gurugram,95000,Demo,Referral,14,9,1,5,23,0
+DL-0261,Nova Solutions,Education,Chennai,159000,Qualified,Advertisement,14,11,4,5,15,0
+DL-0262,Nova Solutions,Finance,Gurugram,234000,Qualified,Referral,10,4,3,7,30,0
+DL-0263,NextGen Solutions,Real Estate,Mumbai,200000,Qualified,Advertisement,13,8,1,6,34,1
+DL-0264,Vertex Enterprises,Logistics,Gurugram,166000,Qualified,LinkedIn,14,4,2,1,13,0
+DL-0265,Elevate Industries,Manufacturing,Gurugram,257000,Proposal,LinkedIn,7,3,1,2,60,0
+DL-0266,Summit Industries,Finance,Pune,246000,Demo,Website,14,4,1,7,4,0
+DL-0267,Apex Solutions,Manufacturing,Mumbai,178000,Qualified,Referral,16,7,1,9,18,1
+DL-0268,Summit Systems,Logistics,Chennai,75000,New Lead,Website,12,2,0,10,56,0
+DL-0269,Apex Technologies,Manufacturing,Delhi,86000,New Lead,Partner,14,8,3,7,23,0
+DL-0270,BluePeak Enterprises,Healthcare,Bengaluru,110000,New Lead,LinkedIn,9,9,1,7,33,0
+DL-0271,Summit Technologies,Manufacturing,Bengaluru,393000,Negotiation,Email Campaign,11,12,3,2,34,1
+DL-0272,Prime Systems,Technology,Pune,59000,New Lead,Advertisement,8,3,2,5,34,1
+DL-0273,Prime Enterprises,Finance,Delhi,94000,New Lead,Partner,16,13,1,5,36,0
+DL-0274,Orbit Solutions,Logistics,Hyderabad,167000,Qualified,Email Campaign,9,7,5,7,35,0
+DL-0275,Vertex Industries,Retail,Gurugram,440000,Proposal,Partner,9,3,0,5,17,1
+DL-0276,Apex Technologies,Retail,Noida,571000,Negotiation,Website,15,3,6,6,28,0
+DL-0277,Apex Labs,Retail,Mumbai,300000,Proposal,Website,11,4,2,4,14,1
+DL-0278,Vertex Labs,Logistics,Hyderabad,244000,Demo,Advertisement,13,4,2,11,34,0
+DL-0279,NextGen Systems,Technology,Delhi,157000,Demo,LinkedIn,12,5,0,5,48,0
+DL-0280,Orbit Solutions,Manufacturing,Pune,75000,New Lead,Advertisement,9,5,3,6,11,0
+DL-0281,NextGen Technologies,Finance,Delhi,563000,Negotiation,Email Campaign,10,7,0,3,57,0
+DL-0282,NextGen Solutions,Education,Pune,318000,Proposal,Partner,14,8,1,1,13,1
+DL-0283,NextGen Technologies,Education,Hyderabad,356000,Demo,Advertisement,9,8,0,5,33,1
+DL-0284,Vertex Systems,Logistics,Hyderabad,184000,Proposal,Referral,7,3,2,5,57,1
+DL-0285,NextGen Systems,Healthcare,Noida,302000,Proposal,Referral,15,6,0,5,55,0
+DL-0286,Prime Labs,Technology,Delhi,168000,Demo,LinkedIn,13,7,2,6,2,0
+DL-0287,Nova Solutions,Finance,Delhi,412000,Negotiation,Advertisement,16,4,2,1,34,0
+DL-0288,BluePeak Enterprises,Manufacturing,Gurugram,420000,Negotiation,Email Campaign,19,9,2,11,53,0
+DL-0289,Apex Labs,Retail,Bengaluru,147000,Demo,Referral,11,5,2,1,29,1
+DL-0290,Apex Solutions,Technology,Pune,261000,Demo,LinkedIn,14,4,5,5,37,0
+DL-0291,BluePeak Labs,Technology,Bengaluru,69000,New Lead,Advertisement,18,8,1,6,4,0
+DL-0292,Vertex Enterprises,Finance,Mumbai,229000,Demo,LinkedIn,14,4,3,5,12,1
+DL-0293,Summit Industries,Logistics,Mumbai,71000,New Lead,Email Campaign,8,7,1,5,26,1
+DL-0294,Vertex Industries,Manufacturing,Delhi,182000,Demo,Referral,7,9,1,3,58,0
+DL-0295,Apex Industries,Real Estate,Hyderabad,709000,Negotiation,Referral,19,6,1,5,28,0
+DL-0296,Apex Industries,Real Estate,Mumbai,271000,Demo,Referral,12,7,1,2,3,0
+DL-0297,BluePeak Technologies,Logistics,Mumbai,80000,Qualified,Website,12,5,3,7,20,1
+DL-0298,NextGen Industries,Logistics,Noida,76000,Qualified,Referral,16,7,1,6,10,0
+DL-0299,Vertex Enterprises,Healthcare,Bengaluru,101000,New Lead,Partner,7,7,3,5,52,0
+DL-0300,Elevate Systems,Logistics,Noida,305000,Proposal,Website,15,6,1,4,18,0
+DL-0301,BluePeak Systems,Manufacturing,Bengaluru,47000,New Lead,Advertisement,16,8,3,4,53,0
+DL-0302,Prime Technologies,Healthcare,Gurugram,101000,New Lead,Website,12,8,0,6,53,0
+DL-0303,Apex Industries,Real Estate,Noida,156000,Qualified,Website,14,10,2,11,53,0
+DL-0304,BluePeak Industries,Healthcare,Gurugram,372000,Proposal,Website,15,8,5,6,27,1
+DL-0305,Vertex Industries,Retail,Mumbai,421000,Proposal,LinkedIn,11,2,2,4,31,0
+DL-0306,Apex Labs,Retail,Delhi,54000,New Lead,Partner,23,9,0,0,27,0
+DL-0307,Summit Solutions,Real Estate,Bengaluru,89000,Qualified,Email Campaign,14,10,3,5,42,0
+DL-0308,BluePeak Labs,Finance,Mumbai,307000,Demo,Referral,13,10,3,3,1,0
+DL-0309,Orbit Solutions,Real Estate,Hyderabad,141000,Demo,Website,12,5,2,2,6,1
+DL-0310,Apex Industries,Manufacturing,Bengaluru,153000,Demo,Email Campaign,14,9,4,4,11,1
+DL-0311,Vertex Industries,Logistics,Mumbai,112000,Qualified,LinkedIn,10,5,1,5,34,1
+DL-0312,Nova Labs,Healthcare,Gurugram,334000,Demo,Email Campaign,9,11,2,8,39,1
+DL-0313,Elevate Labs,Finance,Noida,169000,Qualified,Website,17,8,3,2,20,0
+DL-0314,Nexus Solutions,Healthcare,Pune,621000,Negotiation,Advertisement,11,11,0,4,53,1
+DL-0315,NextGen Systems,Technology,Bengaluru,231000,Demo,Partner,11,6,2,9,21,1
+DL-0316,Nexus Solutions,Education,Pune,127000,Qualified,Email Campaign,9,7,1,2,21,0
+DL-0317,Vertex Labs,Education,Bengaluru,174000,Qualified,Website,16,5,1,5,18,0
+DL-0318,Prime Enterprises,Healthcare,Bengaluru,134000,Demo,Website,6,3,1,6,21,0
+DL-0319,Prime Labs,Finance,Noida,254000,Proposal,Referral,11,10,5,6,19,1
+DL-0320,Nova Enterprises,Real Estate,Gurugram,260000,Demo,Advertisement,11,3,4,6,4,0
+DL-0321,NextGen Technologies,Retail,Chennai,145000,Demo,Referral,10,7,2,5,13,0
+DL-0322,Orbit Labs,Manufacturing,Chennai,333000,Proposal,Advertisement,9,8,1,5,18,1
+DL-0323,Nova Technologies,Healthcare,Pune,212000,Demo,Partner,13,6,1,5,52,1
+DL-0324,Nexus Systems,Healthcare,Delhi,130000,Qualified,Referral,14,7,0,5,29,0
+DL-0325,Nova Solutions,Manufacturing,Mumbai,179000,Proposal,Partner,12,4,2,2,25,1
+DL-0326,Nexus Enterprises,Real Estate,Delhi,126000,Qualified,LinkedIn,13,2,1,2,56,0
+DL-0327,Apex Solutions,Logistics,Delhi,119000,Qualified,LinkedIn,9,5,3,7,13,0
+DL-0328,Prime Technologies,Retail,Chennai,520000,Negotiation,Advertisement,17,3,4,4,27,1
+DL-0329,Apex Enterprises,Healthcare,Mumbai,82000,New Lead,Advertisement,19,8,2,5,60,0
+DL-0330,Elevate Solutions,Technology,Chennai,88000,New Lead,Referral,12,6,1,2,19,0
+DL-0331,NextGen Labs,Retail,Noida,125000,Qualified,LinkedIn,14,4,2,4,49,0
+DL-0332,Orbit Industries,Technology,Noida,565000,Negotiation,Email Campaign,12,7,3,6,1,1
+DL-0333,Nexus Technologies,Education,Chennai,49000,New Lead,Email Campaign,13,8,3,3,38,0
+DL-0334,Orbit Solutions,Manufacturing,Gurugram,44000,New Lead,Email Campaign,15,2,1,6,19,0
+DL-0335,Nexus Technologies,Retail,Chennai,33000,New Lead,LinkedIn,14,8,2,3,52,0
+DL-0336,Vertex Technologies,Logistics,Hyderabad,70000,New Lead,Email Campaign,10,6,3,9,1,1
+DL-0337,Nova Enterprises,Retail,Delhi,65000,New Lead,Partner,17,6,1,0,40,0
+DL-0338,Elevate Enterprises,Finance,Gurugram,180000,Qualified,Website,13,5,2,2,17,0
+DL-0339,Prime Industries,Finance,Gurugram,184000,Demo,Advertisement,19,7,3,3,21,0
+DL-0340,Nexus Labs,Manufacturing,Delhi,160000,Qualified,Referral,14,3,0,9,22,0
+DL-0341,Orbit Technologies,Logistics,Gurugram,180000,Qualified,Partner,12,10,2,4,15,1
+DL-0342,Elevate Solutions,Retail,Delhi,66000,New Lead,Email Campaign,10,4,2,7,50,0
+DL-0343,Summit Systems,Real Estate,Hyderabad,161000,Qualified,Website,18,8,2,6,39,1
+DL-0344,Summit Technologies,Education,Bengaluru,275000,Demo,Referral,12,10,1,9,48,0
+DL-0345,Apex Technologies,Logistics,Gurugram,242000,Proposal,Partner,11,5,3,4,39,0
+DL-0346,Prime Industries,Healthcare,Pune,80000,New Lead,Referral,16,5,3,7,32,0
+DL-0347,Vertex Labs,Manufacturing,Pune,124000,Qualified,Advertisement,17,6,2,3,49,0
+DL-0348,Orbit Systems,Real Estate,Hyderabad,106000,Qualified,LinkedIn,12,3,0,5,4,0
+DL-0349,Nova Enterprises,Logistics,Delhi,216000,Proposal,Email Campaign,14,7,1,4,44,0
+DL-0350,Nova Enterprises,Manufacturing,Pune,246000,Proposal,Partner,13,9,3,2,45,1
+DL-0351,Orbit Solutions,Logistics,Hyderabad,223000,Demo,Partner,12,6,4,1,32,1
+DL-0352,NextGen Systems,Finance,Chennai,90000,Qualified,Website,11,6,0,2,4,0
+DL-0353,Vertex Enterprises,Education,Mumbai,431000,Negotiation,Website,8,5,0,5,53,1
+DL-0354,Elevate Solutions,Manufacturing,Pune,96000,New Lead,Website,10,3,2,5,1,0
+DL-0355,Nexus Labs,Education,Noida,89000,New Lead,Referral,22,7,1,5,33,0
+DL-0356,NextGen Solutions,Manufacturing,Mumbai,130000,Qualified,Email Campaign,10,6,2,8,7,1
+DL-0357,Nexus Enterprises,Finance,Noida,114000,New Lead,Referral,11,7,1,6,9,0
+DL-0358,Nexus Industries,Healthcare,Delhi,737000,Negotiation,Email Campaign,16,6,0,3,1,1
+DL-0359,NextGen Industries,Real Estate,Pune,352000,Proposal,Partner,11,4,0,3,16,0
+DL-0360,Apex Industries,Finance,Hyderabad,57000,Qualified,Referral,15,8,1,5,18,0
+DL-0361,Summit Enterprises,Manufacturing,Bengaluru,269000,Demo,Referral,16,10,1,3,54,0
+DL-0362,Nexus Industries,Education,Pune,213000,Negotiation,Referral,12,8,4,2,47,0
+DL-0363,NextGen Systems,Technology,Pune,685000,Negotiation,LinkedIn,9,8,0,6,6,1
+DL-0364,NextGen Labs,Finance,Pune,280000,Demo,Advertisement,11,5,1,6,2,0
+DL-0365,BluePeak Solutions,Education,Pune,722000,Negotiation,Email Campaign,20,10,3,6,9,1
+DL-0366,Apex Solutions,Logistics,Noida,533000,Negotiation,Email Campaign,12,6,7,6,4,0
+DL-0367,Prime Enterprises,Logistics,Hyderabad,318000,Proposal,Referral,13,9,0,7,45,0
+DL-0368,BluePeak Industries,Finance,Hyderabad,71000,New Lead,LinkedIn,2,4,5,2,23,0
+DL-0369,BluePeak Industries,Manufacturing,Noida,130000,Qualified,Referral,11,6,1,7,54,0
+DL-0370,Orbit Technologies,Logistics,Bengaluru,436000,Proposal,Email Campaign,11,7,1,4,43,0
+DL-0371,Summit Labs,Education,Hyderabad,94000,New Lead,Advertisement,11,13,3,5,45,0
+DL-0372,NextGen Systems,Real Estate,Hyderabad,361000,Proposal,Advertisement,23,6,2,5,43,1
+DL-0373,Summit Solutions,Healthcare,Delhi,66000,New Lead,Partner,8,7,0,5,51,0
+DL-0374,Vertex Technologies,Education,Gurugram,133000,New Lead,LinkedIn,9,11,1,4,8,0
+DL-0375,Orbit Technologies,Logistics,Delhi,184000,Qualified,Advertisement,14,6,1,4,39,0
+DL-0376,Prime Enterprises,Logistics,Gurugram,48000,New Lead,LinkedIn,11,5,0,3,25,1
+DL-0377,Summit Solutions,Retail,Mumbai,435000,Negotiation,Referral,16,5,0,3,16,1
+DL-0378,Nova Enterprises,Technology,Bengaluru,432000,Proposal,Partner,11,8,3,7,35,1
+DL-0379,Nexus Systems,Manufacturing,Gurugram,280000,Proposal,Email Campaign,16,9,3,5,17,1
+DL-0380,Vertex Technologies,Education,Delhi,239000,Demo,Advertisement,17,8,4,4,18,1
+DL-0381,Apex Technologies,Logistics,Bengaluru,99000,New Lead,Advertisement,9,8,2,9,60,0
+DL-0382,Prime Labs,Manufacturing,Bengaluru,34000,Demo,Website,10,8,1,5,27,1
+DL-0383,Vertex Systems,Finance,Pune,214000,Demo,Email Campaign,10,7,1,5,15,1
+DL-0384,Nexus Technologies,Finance,Chennai,216000,Demo,Advertisement,17,4,3,6,60,1
+DL-0385,Orbit Systems,Education,Chennai,135000,Qualified,Advertisement,15,6,2,6,17,0
+DL-0386,Nexus Solutions,Retail,Chennai,237000,Demo,Email Campaign,16,2,2,6,43,0
+DL-0387,BluePeak Industries,Logistics,Bengaluru,175000,Qualified,Partner,12,3,2,4,5,0
+DL-0388,Nexus Technologies,Education,Pune,518000,Negotiation,LinkedIn,10,3,2,3,16,1
+DL-0389,BluePeak Labs,Healthcare,Mumbai,453000,Negotiation,Email Campaign,11,4,0,4,15,1
+DL-0390,Orbit Solutions,Retail,Mumbai,174000,Qualified,LinkedIn,12,13,1,5,42,0
+DL-0391,Elevate Systems,Logistics,Chennai,223000,Demo,Partner,5,5,1,2,46,0
+DL-0392,BluePeak Enterprises,Logistics,Mumbai,330000,Proposal,Partner,14,6,0,6,34,0
+DL-0393,Apex Solutions,Manufacturing,Pune,54000,New Lead,Referral,9,3,3,0,48,0
+DL-0394,Nexus Technologies,Education,Chennai,305000,Negotiation,Website,11,8,4,9,19,0
+DL-0395,Nexus Systems,Logistics,Gurugram,234000,Proposal,Partner,4,6,1,3,8,1
+DL-0396,Apex Industries,Manufacturing,Gurugram,160000,Qualified,Partner,10,5,5,10,47,0
+DL-0397,Nova Solutions,Logistics,Pune,147000,Qualified,LinkedIn,13,8,0,4,10,0
+DL-0398,NextGen Technologies,Technology,Noida,94000,Qualified,Partner,15,10,2,4,5,0
+DL-0399,Elevate Labs,Retail,Mumbai,174000,Qualified,Email Campaign,9,10,0,7,52,0
+DL-0400,Prime Enterprises,Education,Chennai,107000,New Lead,Referral,7,3,7,5,48,0
+DL-0401,BluePeak Systems,Technology,Gurugram,298000,Proposal,Referral,9,10,4,4,53,0
+DL-0402,Apex Solutions,Education,Pune,45000,New Lead,Email Campaign,12,4,1,10,26,0
+DL-0403,Orbit Solutions,Healthcare,Hyderabad,123000,Qualified,Advertisement,11,6,0,5,22,0
+DL-0404,BluePeak Industries,Finance,Gurugram,607000,Negotiation,Partner,15,6,1,7,44,1
+DL-0405,NextGen Industries,Real Estate,Hyderabad,398000,Proposal,Website,9,7,2,3,23,0
+DL-0406,Orbit Labs,Manufacturing,Pune,115000,Qualified,Partner,9,7,4,4,13,1
+DL-0407,Vertex Enterprises,Education,Pune,207000,Qualified,Referral,12,8,1,3,9,1
+DL-0408,Nexus Labs,Retail,Delhi,107000,New Lead,Website,19,7,0,2,49,0
+DL-0409,Vertex Technologies,Education,Gurugram,180000,Demo,Advertisement,7,10,2,3,20,1
+DL-0410,BluePeak Technologies,Education,Delhi,65000,New Lead,LinkedIn,15,8,1,6,28,0
+DL-0411,NextGen Labs,Education,Bengaluru,187000,Demo,LinkedIn,11,7,2,7,44,0
+DL-0412,Elevate Enterprises,Real Estate,Gurugram,437000,Negotiation,Partner,8,12,0,5,57,0
+DL-0413,BluePeak Labs,Logistics,Chennai,99000,New Lead,Partner,15,11,0,3,37,1
+DL-0414,Apex Enterprises,Education,Bengaluru,553000,Negotiation,Website,10,5,0,3,24,1
+DL-0415,Summit Enterprises,Logistics,Bengaluru,610000,Negotiation,Website,4,6,1,7,44,1
+DL-0416,BluePeak Systems,Retail,Mumbai,93000,New Lead,Advertisement,9,6,2,3,33,0
+DL-0417,Nexus Enterprises,Retail,Hyderabad,714000,Negotiation,Partner,8,8,4,4,20,1
+DL-0418,Nexus Industries,Education,Mumbai,162000,Demo,Referral,15,10,3,7,60,0
+DL-0419,BluePeak Enterprises,Logistics,Chennai,548000,Negotiation,LinkedIn,11,6,4,4,48,0
+DL-0420,Orbit Enterprises,Finance,Pune,100000,Demo,Advertisement,10,3,5,2,30,1
+DL-0421,Summit Enterprises,Education,Delhi,148000,Demo,Website,12,14,0,3,44,1
+DL-0422,Apex Technologies,Manufacturing,Chennai,216000,Demo,Referral,17,13,3,2,9,1
+DL-0423,BluePeak Industries,Manufacturing,Pune,387000,Proposal,Partner,15,5,2,8,45,0
+DL-0424,Orbit Industries,Retail,Chennai,341000,Proposal,Email Campaign,15,7,1,6,49,1
+DL-0425,Nexus Labs,Real Estate,Pune,189000,Demo,Website,16,8,1,12,17,1
+DL-0426,Nexus Systems,Manufacturing,Gurugram,316000,Proposal,Advertisement,13,5,1,4,36,1
+DL-0427,NextGen Enterprises,Manufacturing,Delhi,107000,New Lead,Email Campaign,14,13,4,3,14,0
+DL-0428,BluePeak Solutions,Healthcare,Pune,72000,New Lead,Referral,12,5,5,1,19,0
+DL-0429,Summit Systems,Education,Bengaluru,115000,New Lead,LinkedIn,10,11,0,6,7,0
+DL-0430,Nova Systems,Education,Chennai,180000,Qualified,Referral,9,8,2,2,59,1
+DL-0431,Summit Industries,Education,Delhi,89000,New Lead,LinkedIn,13,2,2,4,3,0
+DL-0432,Nexus Systems,Education,Pune,351000,Negotiation,Referral,16,8,5,4,33,0
+DL-0433,Nexus Enterprises,Technology,Bengaluru,99000,New Lead,Website,6,9,0,5,44,0
+DL-0434,Vertex Enterprises,Education,Bengaluru,193000,Demo,Website,9,11,0,4,32,1
+DL-0435,Nexus Technologies,Real Estate,Gurugram,56000,New Lead,Advertisement,8,7,4,5,47,0
+DL-0436,Apex Enterprises,Logistics,Hyderabad,564000,Negotiation,Email Campaign,11,12,3,7,11,1
+DL-0437,Prime Enterprises,Retail,Bengaluru,327000,Negotiation,Referral,11,5,2,6,42,1
+DL-0438,BluePeak Industries,Logistics,Mumbai,121000,Qualified,Referral,11,9,4,4,2,0
+DL-0439,Summit Enterprises,Real Estate,Delhi,349000,Proposal,Email Campaign,13,8,1,5,26,1
+DL-0440,Prime Technologies,Retail,Delhi,124000,New Lead,Partner,10,8,1,3,4,1
+DL-0441,Orbit Solutions,Technology,Noida,290000,Proposal,Advertisement,10,7,1,1,17,1
+DL-0442,Nova Industries,Education,Delhi,71000,New Lead,Referral,6,5,1,4,17,1
+DL-0443,Apex Solutions,Finance,Pune,592000,Negotiation,Advertisement,15,7,1,5,28,0
+DL-0444,Summit Industries,Logistics,Chennai,55000,New Lead,Referral,15,8,3,6,30,0
+DL-0445,Prime Labs,Education,Pune,244000,Demo,Referral,24,7,1,4,40,0
+DL-0446,Nova Systems,Retail,Mumbai,456000,Proposal,Partner,13,9,2,5,23,0
+DL-0447,Vertex Labs,Logistics,Noida,138000,Qualified,Website,13,7,2,7,46,0
+DL-0448,Apex Enterprises,Healthcare,Chennai,101000,New Lead,Advertisement,12,1,1,5,24,0
+DL-0449,Apex Solutions,Manufacturing,Gurugram,86000,New Lead,Email Campaign,13,7,6,5,29,0
+DL-0450,Vertex Enterprises,Healthcare,Bengaluru,123000,Qualified,Advertisement,15,3,2,9,4,0
+DL-0451,BluePeak Systems,Finance,Noida,209000,Demo,Partner,12,8,5,3,38,1
+DL-0452,Vertex Industries,Education,Pune,72000,New Lead,LinkedIn,8,6,3,5,29,0
+DL-0453,Apex Systems,Technology,Chennai,147000,Qualified,LinkedIn,5,2,0,3,19,0
+DL-0454,Apex Technologies,Education,Bengaluru,83000,New Lead,Partner,14,12,0,5,27,0
+DL-0455,Prime Systems,Finance,Chennai,401000,Proposal,Partner,6,8,0,4,29,1
+DL-0456,Nexus Technologies,Finance,Bengaluru,90000,New Lead,Website,13,6,5,3,56,0
+DL-0457,Nova Systems,Manufacturing,Chennai,59000,Qualified,Advertisement,11,9,2,7,36,0
+DL-0458,Vertex Technologies,Finance,Pune,78000,New Lead,Advertisement,11,4,1,5,35,0
+DL-0459,Nova Solutions,Healthcare,Noida,93000,Qualified,LinkedIn,13,9,0,3,52,0
+DL-0460,Vertex Enterprises,Manufacturing,Pune,326000,Proposal,Email Campaign,9,5,1,3,6,1
+DL-0461,Orbit Enterprises,Education,Mumbai,145000,Qualified,Advertisement,8,5,0,6,59,0
+DL-0462,Apex Labs,Logistics,Gurugram,100000,New Lead,Referral,11,10,1,7,23,1
+DL-0463,Nexus Enterprises,Education,Gurugram,347000,Proposal,Referral,13,4,5,7,39,1
+DL-0464,Prime Industries,Technology,Hyderabad,373000,Proposal,Website,11,10,1,4,46,0
+DL-0465,Nexus Systems,Finance,Delhi,96000,New Lead,Website,9,8,0,4,44,0
+DL-0466,Nexus Labs,Finance,Pune,457000,Proposal,LinkedIn,13,8,5,1,48,1
+DL-0467,Nexus Industries,Retail,Pune,485000,Negotiation,Email Campaign,9,9,1,4,52,1
+DL-0468,Nova Industries,Manufacturing,Bengaluru,82000,New Lead,Email Campaign,12,9,4,3,8,0
+DL-0469,Vertex Technologies,Retail,Hyderabad,351000,Proposal,Partner,10,6,1,2,55,0
+DL-0470,Elevate Enterprises,Manufacturing,Gurugram,303000,Proposal,Website,12,7,1,6,2,0
+DL-0471,Orbit Solutions,Healthcare,Pune,121000,Qualified,Advertisement,12,1,1,2,13,0
+DL-0472,Summit Solutions,Manufacturing,Chennai,35000,New Lead,Referral,14,4,1,6,40,0
+DL-0473,Nexus Labs,Education,Gurugram,58000,New Lead,Advertisement,18,9,3,6,57,0
+DL-0474,BluePeak Solutions,Technology,Hyderabad,194000,Proposal,Referral,11,13,3,6,21,0
+DL-0475,Nova Systems,Logistics,Delhi,657000,Negotiation,LinkedIn,13,7,2,6,31,1
+DL-0476,Prime Solutions,Manufacturing,Chennai,230000,Demo,Referral,11,12,2,6,52,0
+DL-0477,Summit Labs,Manufacturing,Bengaluru,145000,Qualified,Advertisement,17,3,1,5,48,1
+DL-0478,Elevate Solutions,Manufacturing,Mumbai,181000,Demo,Advertisement,12,6,3,7,36,0
+DL-0479,BluePeak Systems,Technology,Chennai,222000,Demo,Email Campaign,15,7,1,7,48,1
+DL-0480,Elevate Technologies,Finance,Noida,118000,Qualified,Email Campaign,12,8,4,9,52,0
+DL-0481,Summit Labs,Technology,Gurugram,83000,New Lead,Website,15,10,1,5,38,0
+DL-0482,Nexus Technologies,Real Estate,Noida,372000,Proposal,Advertisement,9,7,3,4,27,1
+DL-0483,BluePeak Technologies,Real Estate,Delhi,118000,Qualified,LinkedIn,10,7,2,7,36,0
+DL-0484,Elevate Technologies,Real Estate,Chennai,273000,Proposal,Referral,11,11,1,5,48,1
+DL-0485,Prime Industries,Finance,Hyderabad,186000,Qualified,Website,13,8,2,5,23,0
+DL-0486,Vertex Enterprises,Real Estate,Hyderabad,79000,New Lead,Partner,12,3,4,4,55,0
+DL-0487,Apex Industries,Logistics,Delhi,64000,New Lead,Partner,8,3,2,9,21,0
+DL-0488,Vertex Enterprises,Education,Gurugram,136000,Qualified,Referral,11,8,2,5,13,0
+DL-0489,Summit Technologies,Technology,Hyderabad,374000,Negotiation,Referral,15,3,1,6,37,0
+DL-0490,Nova Labs,Finance,Chennai,79000,New Lead,Referral,8,4,2,0,47,0
+DL-0491,Apex Enterprises,Education,Mumbai,423000,Proposal,Email Campaign,11,8,2,6,26,0
+DL-0492,Orbit Systems,Education,Chennai,218000,Demo,Referral,10,8,1,8,40,0
+DL-0493,Prime Systems,Finance,Mumbai,557000,Proposal,Partner,18,8,0,4,7,0
+DL-0494,Orbit Solutions,Real Estate,Hyderabad,166000,Qualified,Referral,12,8,0,6,46,0
+DL-0495,BluePeak Enterprises,Finance,Chennai,370000,Proposal,Advertisement,19,1,1,3,39,1
+DL-0496,Apex Labs,Healthcare,Hyderabad,271000,Proposal,LinkedIn,14,7,3,3,22,0
+DL-0497,Orbit Industries,Education,Gurugram,75000,New Lead,Partner,11,4,1,7,39,0
+DL-0498,Orbit Technologies,Finance,Mumbai,64000,New Lead,LinkedIn,11,7,2,4,23,1
+DL-0499,Elevate Solutions,Education,Gurugram,161000,Proposal,Partner,9,5,1,2,58,0
+DL-0500,Vertex Systems,Real Estate,Hyderabad,622000,Negotiation,Website,16,11,2,1,30,1
