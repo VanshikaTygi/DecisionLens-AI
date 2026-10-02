@@ -221,6 +221,7 @@ DecisionLens-AI/
 │   └── ai_assistant.py
 │
 ├── tests/
+|   └── test_core.py
 │
 ├── app.py
 ├── requirements.txt
@@ -284,37 +285,38 @@ The application will open in your browser.
 
 ## ☁️ Deployment
 
-The application is designed to be deployed using Streamlit Community Cloud.
-
-After deployment, configure the Groq API key through the platform's secrets management.
-
-Use:
-
-```text
-GROQ_API_KEY = "your_groq_api_key"
-```
-
-The API key should not be hard-coded into the application or committed to GitHub.
+DecisionLens AI is deployed using Streamlit Community Cloud.
 
 ### Live Demo
 
-**Deployment URL:** To be added after deployment.
+**[Open DecisionLens AI](https://decisionlens-ai-zkznyz5as32dxemmvregqg.streamlit.app/)**
 
----
+The deployed application provides the complete business-data analysis dashboard and AI decision assistant.
 
-## 🧪 Reliability and Error Handling
+### Deployment Configuration
 
-DecisionLens AI includes handling for common data and AI failures, including:
+The Groq API key is configured through Streamlit Secrets and is not stored in the GitHub repository.
 
-- Invalid CSV structure
-- Missing required columns
-- Empty datasets
-- Invalid uploaded data
-- AI/API availability issues
+Required secret:
 
-If the AI assistant is temporarily unavailable, the analytical dashboard remains usable and the deterministic business analysis can still be viewed.
+```text
+GROQ_API_KEY = "your_groq_api_key"
 
----
+## 🧪 Testing and Reliability
+
+The project includes automated tests using `pytest`.
+
+The test suite covers:
+
+- Priority score generation
+- Priority comparison between opportunities
+- Missing required CSV columns
+- Empty dataset validation
+
+Run the tests locally with:
+
+```bash
+python -m pytest -q
 
 ## 📌 Example Decision Flow
 
@@ -395,16 +397,6 @@ B.Tech CSE — AI & ML
 
 GitHub:  
 https://github.com/VanshikaTygi
-
----
-
-## 🏆 Challenge Track
-
-**Build Fast with AI — AI Decision Engine for Business Data**
-
-**Problem Statement:** PS-04
-
-**Project:** DecisionLens AI
 
 ---
 
